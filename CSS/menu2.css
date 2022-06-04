@@ -14,19 +14,26 @@ nav{
     margin-right: auto;
     margin-top: -10px;
     text-align: center;
-    background-color: #00adb5;
+    filter: drop-shadow(0px 0px 0.75rem rgba(0, 162, 171, 2));
+
+    /* text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #00adb5,
+    0 0 45px #00adb5,
+    0 0 55px #00adb5,
+    0 0 70px #00adb5,
+    0 0 80px #00adb5; */
 }
 
 .logo {
     position: absolute;
     top: 20px;
     right: 15px;
-    color: #0e2431;
+    color: #ffffff;
+    filter: drop-shadow(0px 0px 0.75rem rgba(0, 162, 171, 2));
   }
-  
-#logoIMG{
-    background-color: #00adb5;
-}
 
 #menu__toggle {
     opacity: 0;
@@ -61,8 +68,15 @@ nav{
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color: #00adb5;
-    transition-duration: .25s;
+    background-color: #fff;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    transition-duration: .45s;
+    filter: drop-shadow(0px 0px 0.75rem rgba(0, 162, 171, 2));
+    
   }
   .menu__btn > span::before {
     content: '';
