@@ -2,9 +2,14 @@
 .parallax {
   perspective: 1px;
   height: 100vh;
-  overflow: hidden;
-  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
 
+}
+
+.parallax::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari */
 }
 
 .object-wrapper {
