@@ -28,22 +28,24 @@
 }
 
 .speed-4 {
-  transform: translateZ(-4px) scale(5);
+  transform: translateZ(-3px) scale(4);
 }
 
 .speed-5 {
   transform: translateZ(-5px) scale(6);
 }
 
-.object {
+/* .object {
   margin-left: 250px;
   height: 100px;
   width: 100px;
-}
+} */
 
 
 .object-2 {
-  margin-left: 100px;
+  height: 150px;
+  width: 150px;
+  margin-left: 600px;
   margin-top: 900px;
   background: #00adb5;
   box-shadow:
@@ -59,15 +61,37 @@
 
 
 .object-4 {
-  margin-left: 250px;
+  height: 100px;
+  width: 100px;
+  margin-left: 800px;
   margin-top: 900px;
-  background: green;
+  background: #00adb5;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #00adb5,
+  0 0 45px #00adb5,
+  0 0 55px #00adb5,
+  0 0 70px #00adb5,
+  0 0 80px #00adb5;
 }
 
 .object-5 {
-  margin-left: 400px;
+  height: 75px;
+  width: 75px;
+  margin-left: 700px;
   margin-top: 900px;
-  background: pink;
+  background: #00adb5;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #00adb5,
+  0 0 45px #00adb5,
+  0 0 55px #00adb5,
+  0 0 70px #00adb5,
+  0 0 80px #00adb5;
 }
 
 .page-content {
