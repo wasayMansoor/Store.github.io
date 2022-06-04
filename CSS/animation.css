@@ -70,11 +70,11 @@
   0 0 2px #fff,
   0 0 4px #fff,
   0 0 6px #fff,
-  0 0 10px #00adb5,
-  0 0 45px #00adb5,
-  0 0 55px #00adb5,
-  0 0 70px #00adb5,
-  0 0 80px #00adb5;
+  0 0 10px #FF10F0,
+  0 0 45px #FF10F0,
+  0 0 55px #FF10F0,
+  0 0 70px #FF10F0,
+  0 0 80px #FF10F0;
 }
 
 .object-5 {
@@ -95,5 +95,5 @@
 }
 
 .page-content {
-  height: 6000px;
+  height: 10000px;
 }
