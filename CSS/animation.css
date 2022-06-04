@@ -2,8 +2,9 @@
 .parallax {
   perspective: 1px;
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
+  overflow-y: scroll;
+
 }
 
 .object-wrapper {
@@ -40,7 +41,7 @@
   transform: translateZ(-6px) scale(7);
 }
 
- .object {
+.object {
   margin-left: 250px;
   height: 100px;
   width: 300px;
@@ -77,5 +78,5 @@
 }
 
 .page-content {
-  height: 600px;
+  height: 6000px;
 }
