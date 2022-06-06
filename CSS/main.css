@@ -3,7 +3,7 @@ body{
 }
 
 #subsection1{
-    padding-top: 100px;
+    padding-top: 75px;
 }
 #BlueText {
     color: #00adb5 ;
@@ -12,16 +12,49 @@ body{
 #WhiteText{
     color: #eeeeee;
 }
-/* 
-.gridContainer {
+
+#leftbox {
+    float:left; 
+    /* background:Red; */
+    width:25%;
+    height:3000px;
+}
+#middlebox{
+    float:left; 
+    /* background:Green; */
+    width:50%;
+    height:3000px;
+}
+#rightbox{
+    float:right;
+    /* background:blue; */
+    width:25%;
+    height:3000px;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    max-inline-size: 15ch;
+    color: #FFF ;
+    filter: drop-shadow(0px 0px 0.75rem rgba(0, 162, 171, 2));
+}
+/* .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    background-color: #2196F3;
     padding: 10px;
-}
-  
-.gridItem {
+    width: 30%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-} */
+    width: 30%:s
+  } */

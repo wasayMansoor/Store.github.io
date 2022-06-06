@@ -98,7 +98,7 @@ nav{
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #969696;
+    background-color: #222831;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
   
@@ -106,7 +106,7 @@ nav{
   .menu__item {
     display: block;
     padding: 12px 24px;
-    color: #333;
+    color: rgb(223, 223, 223);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -116,5 +116,5 @@ nav{
   .menu__item:hover {
     background-color: #00adb5;
     opacity: 0.7;
-    color: white;
+    color: rgb(255, 255, 255);
   }
